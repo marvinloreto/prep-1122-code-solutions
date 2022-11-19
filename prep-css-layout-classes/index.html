@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Layout Classes</title>
+  <link rel="stylesheet" href="reset.css">
+  <style>
+    /* stylelint-disable block-no-empty */
+    body {
+      font-family: sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .container {
+      max-width: 992px;
+      margin: auto;
+
+    }
+
+    .row {
+      width: 100%;
+      display: flex;
+
+    }
+
+    .column {
+      flex-basis: calc(100% / 3);
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+
+    img {
+      width: 100%;
+    }
+
+  </style>
+</head>
+<body>
+  <h1>
+    Spider-Men
+  </h1>
+  <div class="container">
+    <div class="row">
+      <div class="column">
+        <img src="images/Spider-Man2002.jpg" alt="Tobey Maguire Spider-Man">
+        <h3> Spider-Man</h3>
+        <p>Tobey Maguire stars in this 2002 film. Being the first movie actor to
+          portray the web-slinger and gains the nostalgic factor.
+        </p>
+      </div class="column">
+
+      <div class="column">
+        <img src="images/The_Amazing_Spider-Man2012.jpeg" alt="Andrew Garfield Spider-Man">
+        <h3>The Amazing Spider-Man</h3>
+        <p>10 years later, Andrew Garfield picks up the role and perfectly gets the
+          'quipping' of Spider-Man. This movie series also gets the physics of the web-swinging
+          right! (Andrew Garfield is my favorite Spider-Man)
+        </p>
+      </div class="column">
+
+      <div class="column">
+        <img src="images/Spider-Man_Homecoming_poster.jpg" alt="Tom Holland Spider-Man">
+        <h3>Spider-Man:Homecoming</h3>
+        <p>Tom Holland is the newest spider in town, portraying the youngest Peter Parker
+          and also being the closest in age to Peter. He portrays the most accurate Peter Parker
+          so far!
+        </p>
+      </div class="column">
+    </div class="row">
+  </div>
+  <!-- Complete the HTML here -->
+
+</body>
+</html>
